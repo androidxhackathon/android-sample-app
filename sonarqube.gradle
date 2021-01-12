@@ -3,8 +3,9 @@ apply plugin: "org.sonarqube"
 sonarqube {
     properties {
         property "sonar.host.url", "http://localhost:9000/"
-        property "sonar.projectName", "android-sample-app2"
-        property "sonar.projectKey", "f22b138a5baed58c167867b728b7599796e03675"
+        property "sonar.projectKey", "android-sample-app"
+        property "sonar.projectName", "android-sample-app"
+        property "sonar.login", "f22b138a5baed58c167867b728b7599796e03675"
         property "sonar.tests", "src/test/java"
         property "sonar.test.inclusions", "**/*Test*/**"
         property "sonar.sourceEncoding", "UTF-8"
